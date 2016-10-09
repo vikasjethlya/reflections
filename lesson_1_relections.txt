@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you to see the bug that was introduced ?
+
+Yes, It points the differnces in file. After that user need to spot the difference which causes the problem.
+In linux/gitbash , it shows + (change in new file)  and - (change in old file) format which somewhat user
+need to remember.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Yes, this will help in identify if there is any issue with latest version Or want to move old version at any point
+of time. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+pros :
+1. Make logical change which needed to commint
+2. avoid cluteering of many unnecessary commit
+
+cons :
+a. Need to remember
+b. Easy in differenciating the old and new version since there is logical change b/w the commits.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while 
+others, like Google Docs, treat each file separately?
+It depends in which enviroment u are working. If two or morle files are inter-related i.e. require change
+to slove the purpose then it make sense to have a one comit for multiiple files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+#git log
+# git diff <old commit> <new commit>
+
+How might using version control make you more confident to make changes that could break something?
+
+Using git checkout command we verify the commit which causes the break.
+
+
+How Do You Want to Use Git?
+
+change the few settings which will help in using git in more efficient manner 
+
+
+
+Git command for color diff
+
+#git config --global color.ui auto
+# git checkout
+
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -n -w"
+
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
