@@ -14,17 +14,27 @@ on logical conclusion.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Before commiting, i can add the required change files , Those will go to staging
+area. This will help to make sure before commit we have per logical change.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Ans : Creating branches are helpful
+a) Making experimental change which u don't want to make in master
+b) Make sure master branch are clean and working 
 
 How do the diagrams help you visualize the branch structure?
+
+Very help to understand which commit is reachable and if any new branch need to create to make 
+track of that change.
+git commit can be non-linear and can't be reachable if not taken care properly.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+it will merge the changes of two branches . Also make the commit history of both branches.
+
+
+What are the pros and cons of Git€ The automatic merging vs. always doing merges
 manually?
-
-adding git commit message command 
-
-#git commit -m "commit message"
